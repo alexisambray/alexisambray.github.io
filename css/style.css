@@ -79,6 +79,14 @@ section h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Justify text in paragraph blocks */
+.justified-text {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+
+
 /* Footer */
 footer {
     text-align: center;
