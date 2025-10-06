@@ -85,6 +85,17 @@ section h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Style links below text */
+.project-card a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+}
+
+.project-card a:hover {
+    text-decoration:wavy;
+}
+
 
 
 /* Footer */
