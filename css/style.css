@@ -67,11 +67,36 @@ section h2 {
 .screenshot-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-top: -1rem;
 }
 
 .screenshot-row img {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+/* Justify text in paragraph blocks */
+.justified-text {
+    text-align: justify;
+    margin-bottom: 0rem;
+}
+
+#design-projects h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+/* General project cards design */
+.project-card {
+    margin-bottom: 3rem;
+}
+
+.project-card img {
     width: 100%;
     max-width: 290px;
     border-radius: 8px;
@@ -79,17 +104,160 @@ section h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Justify text in paragraph blocks */
-.justified-text {
-    text-align: justify;
-    margin-bottom: 1.5rem;
+.project-info {
+    margin-bottom: 2rem;
 }
+
+/* General Section Titles */
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.lab-section-title {
+    font-size: 28px;                    /* Slightly larger for emphasis */
+    font-weight: 700;                   /* Stronger bold */
+    font-family: 'Poppins', monospace; /* Stylish font */
+    text-align: center;                 /* Centered looks more balanced */
+    margin-top: -50px;                   /* Reduced space above */
+    margin-bottom: 5px;                 /* Tighter spacing below */
+    color: #222;   
+}                     
+
+.netflix-section-title {
+    font-size: 28px;                    /* Slightly larger for emphasis */
+    font-weight: 700;                   /* Stronger bold */
+    font-family: 'Poppins', monospace; /* Stylish font */
+    text-align: center;                 /* Centered looks more balanced */
+    margin-top: 10px;                   /* Reduced space above */
+    margin-bottom: 5px;                 /* Tighter spacing below */
+    color: #222;                        /* Darker shade for emphasis */
+}
+
+
+/*Laboratory lockdown section */
+.lab-lockdown-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    gap: 30px;
+  }
+
+.lab-subsection-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+  
+  .lab-subsection {
+    text-align: center;
+  }
+  
+  
+  .lab-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .lab-image {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+/* Netflix dataset project card */
+.netflix-section-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+/* Main conteiner for the two columns - kept the same */
+.netflix-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+/* Container to hold the title and card together in a column */
+.project-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450;
+    width: 100%;
+}
+
+.card-label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.netflix-card {
+    width: 100%;
+    padding: 0px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.netflix-card img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* PlantPal app section */
+.plantpal-section-title {
+    font-size: 28px;                    /* Slightly larger for emphasis */
+    font-weight: 700;                   /* Stronger bold */
+    font-family: 'Poppins', monospace; /* Stylish font */
+    text-align: center;                 /* Centered looks more balanced */
+    margin-top: 50px;                   /* Reduced space above */
+    margin-bottom: 5px;                 /* Tighter spacing below */
+    color: #222;   
+}       
+
+.plantpal-justified-text {
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.image-label {
+    margin-top: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+  
 
 /* Style links below text */
 .project-card a {
     text-decoration: none;
     color: #1a73e8;
     font-weight: 500;
+    margin-bottom: 3rem;
 }
 
 .project-card a:hover {

@@ -19,26 +19,31 @@
 
     <main>
         <section id="about">
-            <h2>About Me</h2>
+            <h2 class="section-title">About Me</h2>
             <p>From clean code to clear interfaces. I'm a developer and designer passionate about crafting intuitive digital experiences. Portfolio is still in progress! </p>
         </section>
 
 
         <section id="projects">
-            <h2>Featured Projects</h2>
-            
-            <div class="project-card">
-                <h3>Laboratory Lockdown Game</h3>
+            <!-- Featured Projects Title -->
+            <h2 class="section-title">Featured Projects</h2>
 
-                <!-- Higher-Order Screenshots -->
-                <h4>Higher-Order Game</h4>
+            <!-- Laboratory Lockdown Game -->
+            <section class="lab-lockdown-section">
+                <div class="lab-subsection">
+                    <h3 class="lab-section-title">Laboratory Lockdown Game</h3>
+                    <!-- Higher-Order Screenshots -->
+                    <p class="lab-subsection-title">Higher-Order Game</p>
+
+                </div>
+
                 <div class="screenshot-row">
                     <img src="images/STMagnet.jpg" alt="Higher-Order: Magnetic Technique" />
                     <img src="images/STDecant.jpg" alt="Higher-Order: Decantation Technique"/>
                 </div>
 
                  <!-- Lower-Order Screenshots-->
-                <h4>Lower-Order Game</h4>
+                <h4 class="lab-subsection-title">Lower-Order Game</h4>
                 <div class="screenshot-row">
                     <img src="images/LO-story.jpg" alt="Lower-Order: Laboratory Station" />
                     <img src="images/mixturechecklist.jpg" alt="Lower-Order: Mixture Checklist" />
@@ -47,25 +52,58 @@
                 <p class="justified-text"><strong>Laboratory Lockdown</strong> is a 3D Unity game designed to help Grade 6 students in the Philippines master both lower- and higher-order learning outcomes on mixtures through interactive gameplay and real-world simulations. </p>
                 <p class="justified-text">The <strong>lower-order outcome</strong> focuses on fixture mixture classification such as true solution, solution, and suspension. The <strong>higher-order outcome</strong> challenges students to demonstrate various separation techniques, such as magnetic, scooping, filtration, decantation, picking, winnowing, sieving, and distillation.</p>
                 <p class="justified-text">This game was developed, designed, and planned with a full story plot by my thesis mates - Elizabeth Celestino, Michelle Martinez, Miguel Singson — and myself.</p>
-                <ul>
+                <ul class="project-info">
                     <li><strong>Tools:</strong> Unity, C#, Adobe Illustrator, Canva</li>
                     <li><strong>Video Demo: </strong><a href="https://share.descript.com/view/yxrrbrca7MZ" target="_blank">Lower-Order Game</a> | <a href="https://share.descript.com/view/jE9nF1y2zRH" target="_blank">Higher-Order Game</a></li>
                 </ul>
-            </div>
+
+            <!-- Analyzing Netflix Dataset -->
+            <h3 class="netflix-section-title">Analyzing the Netflix Movies & TV Shows Dataset</h3>
+
+                <div class="netflix-cards">
+                    <div class="project-column">
+                         <p class="card-label">Netflix Dataset Overview</p> <div class="netflix-card">
+                         <img src="images/netflix_closer.png" alt="Netflix Dataset Overview" />
+                        </div>
+                    </div>
+                
+                    <div class="project-column">
+                        <p class="card-label">Data Variables</p> <div class="netflix-card">
+                            <img src="images/netflix_variables.png" alt="Data Variables" />
+                        </div>  
+                    </div>
+
+                    <div class="project-column">
+                        <p class="card-label">Exploratory Data Analysis</p> <div class="netflix-card">
+                            <img src="images/top_genres.png" alt="Top 10 Genres" />
+                            <img src="images/content_rating.png" alt="Top Content Ratings" />
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="netflix-description">
+                    <p class="justified-text">
+                        This project is a case study on the <strong>Netflix Movies and TV Shows dataset</strong> from Kaggle, completed for our <strong>CSMODEL (Modelling and Simulation)</strong> course. Our goal was to analyze trends in content publishing and build a <strong>content-based recommender system</strong> using machine learning.
+                    </p>
+                </div>
         </section>
 
         <section id="design-projects">
             <h2>UI/UX & Web Design Projects</h2>
 
             <div class="project-card">
-                <h3>Online Banking - Mobile App UI Design</h3>
+                <h3 class="plantpal-section-title">PlantPal - Mobile App UI Design</h3>
                 <div class="screenshot-row">
-                    <img src="images/mockup.png" alt="Home Screen Mockup" />
-                    <img src="images/mockup-2.jpg" alt="Task View Mockup" />
+                  <!--  <img src="images/mockup.png" alt="Home Screen Mockup" /> -->
+                   <!-- <img src="images/mockup-2.jpg" alt="Task View Mockup" />  -->
                 </div>
-                <p class="justified-text">
+                <p class="plantpal-justified-text">
                     <strong>PlantPal</strong> is a concept mobile app I designed to help beginner plant parents take better of their houseplants. It includes plant watering reminders, sunlight tracking, and a care journal. I focused on creating a calm, and user-friendly interface using Figma, guided by principles from my UI/UX course. 
                 </p>
+                <ul>
+                    <li><strong>Tools: </strong>Figma, FigJam</li>
+                    <li><strong>Prototype: </strong><a href="https://www.figma.com/file/YOUR-LINK-HERE">View on Figma</a></li>
+                </ul>
             </div>
         </section>
 
