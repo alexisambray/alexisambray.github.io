@@ -222,6 +222,40 @@ section h2 {
     border-radius: 10px;
 }
 
+.netflix-description {
+    margin: 40px auto 60px;
+    max-width: 900px;
+    padding: 0 20px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+}
+
+.netflix-justified-first-text {
+    text-align: justify;
+    margin-top: -1rem;
+}
+
+.netflix-justified-second-text {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.netflix-justified-third-text {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.netflix-justified-fourth-text {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.netflix-project-info {
+    margin-top: 2rem;
+    justify-content: center;
+}
+
 /* PlantPal app section */
 .plantpal-section-title {
     font-size: 28px;                    /* Slightly larger for emphasis */
