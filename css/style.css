@@ -106,6 +106,7 @@ section h2 {
 
 .project-info {
     margin-bottom: 2rem;
+    margin-right: 55.5%;
 }
 
 /* General Section Titles */
@@ -114,6 +115,13 @@ section h2 {
     font-weight: bold;
     text-align: left;
     margin-bottom: 5px;
+}
+
+/* Laboratory Lockdown project*/
+.lab-justified-text {
+    text-align: justify;
+    margin-bottom: 0rem;
+    margin-left: 5%;
 }
 
 .lab-section-title {
@@ -154,23 +162,23 @@ section h2 {
     text-align: center;
 }
   
-  .lab-subsection {
+.lab-subsection {
     text-align: center;
-  }
+}
   
   
-  .lab-images {
+.lab-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
+}
   
-  .lab-image {
+.lab-image {
     width: 400px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
+}
 
 /* Netflix dataset project card */
 .netflix-section-title {
@@ -252,8 +260,8 @@ section h2 {
 }
 
 .netflix-project-info {
-    margin-top: 2rem;
-    justify-content: center;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
 }
 
 /* PlantPal app section */
