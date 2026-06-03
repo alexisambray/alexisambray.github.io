@@ -1,138 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title> Alexis Ambray - Web Design & UI/UX Designer</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alexis Ambray Portfolio</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <header>
-        <h1>Hi, I'm Alexis 👋</h1>
-        <p>I design and build delightful user experiences for web and mobile.</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <header class="hero">
+    <nav class="navbar">
+      <a href="#" class="logo">Alexis</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#design-projects">UI/UX</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-    <main>
-        <section id="about">
-            <h2 class="section-title">About Me</h2>
-            <p>From clean code to clear interfaces. I'm a developer and designer passionate about crafting intuitive digital experiences. Portfolio is still in progress! </p>
-        </section>
+    <section class="hero-content">
+      <h1>
+        Creating <span>digital</span><br>
+        experiences with<br>
+        code & design
+      </h1>
+      <p>
+        Computer Science graduate focused on frontend development, UI/UX design,
+        data-driven product insights, and tech consulting.
+      </p>
+      <a href="#projects" class="hero-button">View Projects →</a>
+    </section>
+  </header>
 
+  <section class="service-strip">
+    <p>Frontend Development</p>
+    <span>✦</span>
+    <p>UI/UX Design</p>
+    <span>✦</span>
+    <p>Data Analysis</p>
+    <span>✦</span>
+    <p>Tech Consulting</p>
+  </section>
 
-        <section id="projects">
-            <!-- Featured Projects Title -->
-            <h2 class="section-title">Featured Projects</h2>
+  <main>
+    <section id="about" class="about-section">
+      <p class="eyebrow">About Me</p>
+      <h2>Designing thoughtful interfaces and building user-focused digital solutions.</h2>
+      <p>
+        I’m Alexis, a Computer Science graduate from De La Salle University Manila.
+        I enjoy combining software development, UX/UI design, and data analysis to
+        create products that are usable, meaningful, and visually clear.
+      </p>
+    </section>
 
-            <!-- Laboratory Lockdown Game -->
-            <section class="lab-lockdown-section">
-                <div class="lab-subsection">
-                    <h3 class="lab-section-title">Laboratory Lockdown Game</h3>
-                    <!-- Higher-Order Screenshots -->
-                    <p class="lab-subsection-title">Higher-Order Game</p>
+    <section id="projects" class="projects-section">
+      <p class="eyebrow">Selected Work</p>
+      <h2>Featured Projects</h2>
 
-                </div>
+      <article class="project-case">
+        <div class="project-header">
+          <span class="project-number">01</span>
+          <div>
+            <h3>Laboratory Lockdown</h3>
+            <p>Game-Based Learning Environment for Grade 6 Science</p>
+          </div>
+        </div>
 
-                <div class="screenshot-row">
-                    <img src="images/STMagnet.jpg" alt="Higher-Order: Magnetic Technique" />
-                    <img src="images/STDecant.jpg" alt="Higher-Order: Decantation Technique"/>
-                </div>
+        <div class="image-grid">
+          <img src="images/STMagnet.jpg" alt="Higher-Order Magnetic Technique">
+          <img src="images/STDecant.jpg" alt="Higher-Order Decantation Technique">
+          <img src="images/LO-story.jpg" alt="Lower-Order Laboratory Station">
+          <img src="images/mixturechecklist.jpg" alt="Lower-Order Mixture Checklist">
+        </div>
 
-                 <!-- Lower-Order Screenshots-->
-                <h4 class="lab-subsection-title">Lower-Order Game</h4>
-                <div class="screenshot-row">
-                    <img src="images/LO-story.jpg" alt="Lower-Order: Laboratory Station" />
-                    <img src="images/mixturechecklist.jpg" alt="Lower-Order: Mixture Checklist" />
-                </div>
+        <p>
+          A 3D Unity educational game designed to help Grade 6 students learn mixtures
+          through interactive gameplay, story-based tasks, and separation technique simulations.
+        </p>
 
-                <p class="lab-justified-text"><strong>Laboratory Lockdown</strong> is a 3D Unity game designed to help Grade 6 students in the Philippines master both lower- and higher-order learning outcomes on mixtures through interactive gameplay and real-world simulations. </p>
-                <p class="lab-justified-text">The <strong>lower-order outcome</strong> focuses on fixture mixture classification such as true solution, solution, and suspension. The <strong>higher-order outcome</strong> challenges students to demonstrate various separation techniques, such as magnetic, scooping, filtration, decantation, picking, winnowing, sieving, and distillation.</p>
-                <p class="lab-justified-text">This game was developed, designed, and planned with a full story plot by my thesis mates - Elizabeth Celestino, Michelle Martinez, Miguel Singson — and myself.</p>
-                <ul class="project-info">
-                    <li><strong>Tools:</strong> Unity, C#, Adobe Illustrator, Canva</li>
-                    <li><strong>Links: </strong><a href="https://share.descript.com/view/yxrrbrca7MZ" target="_blank">Lower-Order Game</a> | <a href="https://share.descript.com/view/jE9nF1y2zRH" target="_blank">Higher-Order Game</a></li>
-                </ul>
+        <ul class="project-meta">
+          <li><strong>Tools:</strong> Unity, C#, Adobe Illustrator, Canva</li>
+          <li><strong>Role:</strong> Research Lead & Developer</li>
+          <li><strong>Links:</strong>
+            <a href="https://share.descript.com/view/yxrrbrca7MZ" target="_blank">Lower-Order Demo</a> |
+            <a href="https://share.descript.com/view/jE9nF1y2zRH" target="_blank">Higher-Order Demo</a>
+          </li>
+        </ul>
+      </article>
 
-            <!-- Analyzing Netflix Dataset -->
-            <h3 class="netflix-section-title">Analyzing the Netflix Movies & TV Shows Dataset</h3>
+      <article class="project-case">
+        <div class="project-header">
+          <span class="project-number">02</span>
+          <div>
+            <h3>Analyzing the Netflix Movies & TV Shows Dataset</h3>
+            <p>EDA, recommender system, and statistical testing</p>
+          </div>
+        </div>
 
-                <div class="netflix-cards">
-                    <div class="project-column">
-                         <p class="card-label">Netflix Dataset Overview</p> <div class="netflix-card">
-                         <img src="images/netflix_closer.png" alt="Netflix Dataset Overview" />
-                        </div>
-                    </div>
-                
-                    <div class="project-column">
-                        <p class="card-label">Data Variables</p> <div class="netflix-card">
-                            <img src="images/netflix_variables.png" alt="Data Variables" />
-                        </div>  
-                    </div>
+        <div class="image-grid">
+          <img src="images/netflix_closer.png" alt="Netflix Dataset Overview">
+          <img src="images/netflix_variables.png" alt="Netflix Data Variables">
+          <img src="images/top_genres.png" alt="Top Genres Visualization">
+          <img src="images/content_rating.png" alt="Content Rating Visualization">
+        </div>
 
-                    <div class="project-column">
-                        <p class="card-label">Exploratory Data Analysis</p> <div class="netflix-card">
-                            <img src="images/top_genres.png" alt="Top 10 Genres" />
-                            <img src="images/content_rating.png" alt="Top Content Ratings" />
-                        </div>  
-                    </div>
-                </div>
+        <p>
+          A data analysis and modelling project using the Netflix Movies and TV Shows dataset
+          from Kaggle. We cleaned the data, answered 9 EDA questions, built content-based
+          recommender systems, and compared model performance using a paired t-test.
+        </p>
 
-                <div class="netflix-description">
-                    <p class="netflix-justified-first-text">
-                        This project is a case study on the <strong>Netflix Movies and TV Shows dataset</strong> from Kaggle, completed for our <strong>CSMODEL (Modelling and Simulation)</strong> course. Our goal was to analyze trends in content publishing and build a <strong>content-based recommender system</strong> using machine learning.
-                    </p>
+        <ul class="project-meta">
+          <li><strong>Tools:</strong> Python, Pandas, Plotly, Seaborn, Jupyter Notebook</li>
+          <li><strong>Topics:</strong> EDA, recommender systems, cosine similarity, hypothesis testing</li>
+          <li><strong>Links:</strong>
+            <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">Kaggle</a> |
+            <a href="https://github.com/alexisambray/csmodel-netflix-dataset" target="_blank">Notebook</a>
+          </li>
+        </ul>
+      </article>
+    </section>
 
-                    <p class="netflix-justified-second-text">
-                        We began with <strong>data cleaning</strong> to ensure consitency and accuracy, followed by answering 9 exploratory questions (2 snippets shown above) using <strong>EDA techniques and Plotly visualizations</strong>. Our core research question was: <em>"Would there be a significant difference in the performance of a recommender system based on structured metadata (title, director, cast, rating, genre) versus one based on textual descriptions?"</em>
-                    </p>
+    <section id="design-projects" class="design-section">
+      <p class="eyebrow">UI/UX & Web Design</p>
+      <h2>Design Experiments & Case Studies</h2>
 
-                    <p class="netflix-justified-third-text">
-                        We built two recommendation algorithms, one based on metadata and one on descriptions. A <strong>Paired T-Test</strong> was performed to compare their accuracy, with results showing a statistically significant difference favoring one model. We concluded that description-based models yielded higher accuracy (t-value = 9.25, p = 1.51e-05).
-                    </p>
+      <article class="project-case">
+        <div class="project-header">
+          <span class="project-number">03</span>
+          <div>
+            <h3>PlantPal</h3>
+            <p>Mobile app UI concept for beginner plant parents</p>
+          </div>
+        </div>
 
-                    <p class="netflix-justified-fourth-text">
-                       This project was done by Loben Tipan, Kaitlyn Tighe, and myself.
-                    </p>
+        <p>
+          A concept mobile app focused on plant care reminders, sunlight tracking,
+          and journaling. Designed in Figma as part of my UI/UX learning path.
+        </p>
 
-                    <ul class="netflix-project-info">
-                        <li><strong>Tools:</strong> Python, Pandas, Plotly, Seaborn, Jupyter Notebook</li>
-                        <li><strong>Key Topics:</strong> EDA, Data Cleaning, Recommender Systems, Hypothesis Testing, Cosine Similarity</li>
-                        <li><strong>Links: </strong><a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">Kaggle</a> | <a href="https://github.com/alexisambray/csmodel-netflix-dataset" target="_blank">Notebook</a></li>
-                    </ul>
-                </div>
-        </section>
+        <ul class="project-meta">
+          <li><strong>Tools:</strong> Figma, FigJam</li>
+          <li><strong>Link:</strong> <a href="#">Figma coming soon</a></li>
+        </ul>
+      </article>
+    </section>
 
-        <section id="design-projects">
-            <h2>UI/UX & Web Design Projects</h2>
+    <section id="contact" class="contact-section">
+      <p class="eyebrow">Let’s Connect</p>
+      <h2>Interested in working together?</h2>
+      <p>Email me at <a href="mailto:alexisambray@gmail.com">alexisambray@gmail.com</a> or reach me on <a href="https://www.linkedin.com/in/alexissofiab" target="_blank">LinkedIn</a>.</p>
+    </section>
+  </main>
 
-            <div class="project-card">
-                <h3 class="plantpal-section-title">PlantPal - Mobile App UI Design</h3>
-                <div class="screenshot-row">
-                  <!--  <img src="images/mockup.png" alt="Home Screen Mockup" /> -->
-                   <!-- <img src="images/mockup-2.jpg" alt="Task View Mockup" />  -->
-                </div>
-                <p class="plantpal-justified-text">
-                    <strong>PlantPal</strong> is a concept mobile app I designed to help beginner plant parents take better of their houseplants. It includes plant watering reminders, sunlight tracking, and a care journal. I focused on creating a calm, and user-friendly interface using Figma, guided by principles from my UI/UX course. 
-                </p>
-                <ul class="ux-projone-info">
-                    <li><strong>Tools: </strong>Figma, FigJam</li>
-                    <li><strong>Links: </strong><a href="https://www.figma.com/file/YOUR-LINK-HERE">Figma</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Let's connect! Email me at <a href="mailto:alexisambray@gmail.com">alexisambray@gmail.com</a> or reach out on <a href="https://www.linkedin.com/in/alexissofiab" target="_blank">LinkedIn</a>.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2025 Alexis Ambray. Built with love and caffeine ☕</p>
-    </footer>
+  <footer>
+    <p>© 2025 Alexis Ambray. Built with love and caffeine ☕</p>
+  </footer>
 </body>
-</html>
