@@ -251,9 +251,10 @@ footer {
   }
 
   .image-grid img {
-    height: 400px;
-    object-fit: contain;
-    background: white;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background: transparent;
   }
 
   .project-header {
