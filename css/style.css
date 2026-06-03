@@ -154,6 +154,10 @@ h2 {
   margin-top: 2rem;
 }
 
+.project-description {
+    text-align: justify;
+}
+
 .project-showcase {
     margin: 2rem 0;
 }
