@@ -175,10 +175,30 @@
         </section>
 
         <section id="contact" class="contact-section">
-            <p class="eyebrow">Let’s Connect</p>
-            <h2>Interested in working together?</h2>
-            <p>Email me at <a href="mailto:alexisambray@gmail.com">alexisambray@gmail.com</a> or reach me on <a
-                    href="https://www.linkedin.com/in/alexissofiab" target="_blank">LinkedIn</a>.</p>
+            <div class="contact-illustration">
+                <img src="images/contact-illustration.png" alt="Contact illustration">
+            </div>
+
+            <div class="contact-content">
+                <p class="eyebrow">Let’s Connect</p>
+                <h2>Get In Touch</h2>
+
+                <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST" class="contact-form">
+                    <div class="form-row">
+                        <input type="text" name="first-name" placeholder="First Name">
+                        <input type="text" name="last-name" placeholder="Last Name">
+                    </div>
+
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+
+                <p class="contact-note">
+                    Or email me at <a href="mailto:alexisambray@gmail.com">alexisambray@gmail.com</a>
+                </p>
+            </div>
         </section>
     </main>
 
