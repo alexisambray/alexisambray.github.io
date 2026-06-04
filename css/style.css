@@ -401,8 +401,8 @@ footer {
     }
 
     .phone-mockup-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
     .phone-mockup-grid img {
@@ -419,13 +419,22 @@ footer {
     }
 
     .phone-frame {
-        background: #111;
-        border-radius: 40px;
-        padding: 10px;
-        overflow: hidden;
+        background: transparent;
+        padding: 0;
+        border-radius: 24px;
+        overflow: visible;
     }
 
-    
+
+    .phone-frame img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 24px;
+        border: none;
+        background: transparent;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    }
 
     .contact-illustration {
         text-align: center;
