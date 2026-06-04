@@ -64,23 +64,45 @@ a:hover {
   font-size: 0.95rem;
 }
 
+#typing-text {
+  display: inline-block;
+  width: 7.8ch;
+  min-width: 7.8ch;
+  max-width: 7.8ch;
+  transition: opacity 0.3s ease;
+
+  background: var(--green);
+  color: var(--dark);
+  padding: 0.08em 0.25em 0.16em;
+  border-radius: 999px;
+
+  line-height: 1.05;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hero-line {
+  display: block;
+}
+
 .hero-content {
-  max-width: 900px;
+  max-width: 1300px;
   margin-top: 7rem;
 }
 
 .hero-content h1 {
-  font-size: clamp(3rem, 8vw, 6.8rem);
+  font-size: clamp(3rem, 7vw, 6rem);
   line-height: 0.95;
   letter-spacing: -4px;
   margin-bottom: 1.5rem;
 }
 
 .hero-content h1 span {
-  background: var(--green);
-  color: var(--dark);
-  padding: 0 1.5rem;
-  border-radius: 999px;
+  background: none;
+  padding: 0;
+  border-radius: 0;
 }
 
 .hero-content p {
