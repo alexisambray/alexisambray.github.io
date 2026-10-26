@@ -348,11 +348,14 @@ h2 {
 }
 
 .project-description {
-  text-align: left;
+  max-width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .project-case > p {
-  max-width: 900px;
+  max-width: 100%;
   margin-bottom: 20px;
   color: #514852;
   line-height: 1.85;
