@@ -27,13 +27,12 @@
           Creating <span id="typing-text">digital</span>
         </span>
 
-        <span class="hero-line"> experiences with </span>
-
-        <span class="hero-line"> code & design </span>
+        <span class="hero-line">experiences with</span>
+        <span class="hero-line">code &amp; design</span>
       </h1>
       <p>
-        Computer Science graduate focused on software development, UI/UX design,
-        data-driven product insights, and tech consulting.
+        I create thoughtful, user-centered interfaces that turn complex problems
+        into intuitive digital experiences.
       </p>
       <a href="#projects" class="hero-button">View Projects →</a>
     </section>
@@ -362,12 +361,12 @@
   </footer>
 
   <script>
-    const words = ["digital", "modern", "user-first", "elegant"];
+    const words = ["digital", "thoughtful", "user-first"];
     const typingText = document.getElementById("typing-text");
 
     let index = 0;
 
-    setInterval(() => {
+    function rotateWord() {
       typingText.style.opacity = "0";
 
       setTimeout(() => {
@@ -375,6 +374,8 @@
         typingText.textContent = words[index];
         typingText.style.opacity = "1";
       }, 300);
-    }, 2000);
+    }
+
+    setInterval(rotateWord, 2500);
   </script>
 </body>

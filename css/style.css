@@ -165,23 +165,25 @@ textarea:focus-visible {
 }
 
 #typing-text {
-  display: inline-block;
-  width: 7.8ch;
-  min-width: 7.8ch;
-  max-width: 7.8ch;
-  padding: 0.02em 0.17em 0.08em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5em;
+  min-width: 4.8em;
+  padding: 0.02em 0.16em 0.08em;
   border-radius: 999px;
 
   background: #e3c9f7;
   color: #30213c;
 
-  font: inherit;
-  line-height: 1.08;
-  letter-spacing: -0.065em;
+  font-family: inherit;
+  font-size: 0.72em;
+  font-weight: inherit;
+  line-height: 1.15;
+  letter-spacing: -0.075em;
   text-align: center;
-  vertical-align: baseline;
+  vertical-align: 0.02em;
   white-space: nowrap;
-  overflow: hidden;
 
   transition: opacity 300ms ease;
 }
@@ -707,11 +709,13 @@ footer p {
   .hero-content h1 {
     font-size: clamp(2.9rem, 11vw, 4.5rem);
     letter-spacing: -0.07em;
-    line-height: 1.02;
+    line-height: 1.1;
   }
 
   #typing-text {
+    font-size: 0.88em;
     max-width: 100%;
+    min-width: 0;
   }
 
   .hero-content p {
