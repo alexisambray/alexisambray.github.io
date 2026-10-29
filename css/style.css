@@ -680,9 +680,8 @@ footer p {
   }
 
   .hero {
-    min-height: 650px;
-    min-height: 88svh;
-    padding: 22px 6% 60px;
+    min-height: 0;
+    padding: 22px 6% 36px;
   }
 
   .navbar {
